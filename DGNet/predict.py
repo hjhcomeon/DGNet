@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-from unet import Unet_ONNX, Unet
+from dgnet import Unet_ONNX, Unet
 
 if __name__ == "__main__":
     #-------------------------------------------------------------------------#
