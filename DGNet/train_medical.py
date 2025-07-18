@@ -9,8 +9,8 @@ import torch.distributed as dist
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from nets.unet import Unet
-from nets.unet_training import get_lr_scheduler, set_optimizer_lr, weights_init
+from nets.DGNet import Unet
+from nets.DGNet_training import get_lr_scheduler, set_optimizer_lr, weights_init
 from utils.callbacks import LossHistory
 from utils.dataloader_medical import UnetDataset, unet_dataset_collate
 from utils.utils import (download_weights, seed_everything, show_config,
