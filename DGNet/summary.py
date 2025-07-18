@@ -5,7 +5,7 @@ import torch
 from thop import clever_format, profile
 from torchsummary import summary
 
-from nets.unet import Unet
+from nets.DGNet import Unet
 
 if __name__ == "__main__":
     input_shape     = [512, 512]
