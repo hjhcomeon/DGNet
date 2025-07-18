@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import time
 from torchinfo import summary
-from nets.unet import get_seg_model  # 导入你的模型
+from nets.DGNet import get_seg_model  # 导入你的模型
 
 def measure_fps(model, input_shape, device, test_interval=100):
     """
